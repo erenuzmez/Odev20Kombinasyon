@@ -15,8 +15,7 @@ public class Odev20Kombinasyon{
             totalx=totalx*x;
         }for(int y=1;y<=fark;y++){
             totalfark=totalfark*y;
-        }
-        sonuc=totali/(totalx*(totalfark));
+        }sonuc=totali/(totalx*(totalfark));
         System.out.println("C("+n+","+r+")"+"="+sonuc);
     }
 }
